@@ -2,7 +2,14 @@ import PropTypes from 'prop-types';
 
 const Companies = ({ companies }) => {
   console.log(companies);
-  return (<h1>companies</h1>);
+  const brands = ['apple', 'facebook', 'smasung', 'xiaomi', 'twitter'];
+  return (
+    <section className="grid grid-cols-2">
+      {brands.map((brand) => (
+        <button key={brand} className=" bg-black p-5 text-white" type="button">{brand}</button>
+      ))}
+    </section>
+  );
 };
 
 export default Companies;
