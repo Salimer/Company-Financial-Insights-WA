@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(fetchIS({ url: GET_APPLE }));
-  }, [dispatch]);
+  }, [dispatch, appleIS.length]);
 
   if (isLoading) {
     return (
