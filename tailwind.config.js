@@ -16,6 +16,7 @@ module.exports = {
       'bubble-gum': '#ff77e9',
       bermuda: '#78dcca',
       buttonFirstColor: '#4268af',
+      buttonSecondColor: '#3f62a5',
     },
     extend: {},
   },
