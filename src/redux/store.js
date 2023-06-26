@@ -1,12 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
+import appleReducer from './apple/appleSlice';
 
 const store = configureStore({
-  reudcer: {
-    google: googleReducer,
+  reducer: {
     apple: appleReducer,
-    tesla: telsReducer,
-    microsoft: microsoftReducer,
   },
 });
+
+const selectApple = (store) => store.apple;
+
+export { selectApple };
 
 export default store;
