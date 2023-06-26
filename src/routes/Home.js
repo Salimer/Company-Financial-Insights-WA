@@ -35,9 +35,7 @@ const Home = () => {
   }
 
   return (
-    <div>
-      <Companies companies={appleIS} />
-    </div>
+    <Companies companies={appleIS} />
   );
 };
 
