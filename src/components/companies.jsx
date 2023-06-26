@@ -4,11 +4,13 @@ import Button from './Button';
 
 const Companies = ({ companies }) => {
   console.log(companies);
-  const brands = ['apple', 'facebook', 'smasung', 'xiaomi', 'twitter'];
+  const brands = ['apple', 'facebook', 'smasung', 'xiaomi', 'twitter', 'sony'];
+  const nthChildren = [1, 4, 5, 8];
+
   return (
-    <Section className="grid grid-cols-2 w-full">
+    <Section nthChildren={nthChildren} className="grid grid-cols-2 w-full">
       {brands.map((brand) => (
-        <Button key={brand}>{brand}</Button>
+        <Button key={brand} url={brand}>{brand}</Button>
       ))}
     </Section>
   );
@@ -21,9 +23,15 @@ Companies.propTypes = {
 };
 
 const Section = styled.section`
-margin: 0 auto;
-position: relative;
-// &:nth-child(odd) {
-//   background-color: #ddd;
-// }
+  ${({ nthChildren }) => {
+    let css = '';
+    nthChildren.forEach((num) => {
+      css += `
+        & > *:nth-child(${num}) {
+          background-color: #3f62a5;
+        }
+      `;
+    });
+    return css;
+  }}
 `;
