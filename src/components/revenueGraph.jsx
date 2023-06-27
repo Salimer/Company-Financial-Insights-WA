@@ -5,7 +5,6 @@ import getCompanyName from '../functions/getCompanyName';
 
 const RevenueGraph = ({ company }) => {
   const companyName = getCompanyName(company[0].symbol);
-  // const years = [2020, 2021, 2022, 2023];
   const nthChildren = [1, 4, 5, 8];
   return (
     <Section nthChildren={nthChildren} className="grid grid-cols-2 w-full">
