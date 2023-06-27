@@ -1,16 +1,11 @@
-import { useSelector } from 'react-redux/es/hooks/useSelector';
+import PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
-import { selectApple } from '../redux/store';
 import getISofYear from '../functions/getISofYear';
 
-const IncomeStatement = () => {
+const IncomeStatement = ({ company }) => {
   const location = useLocation();
   const { pathname } = location;
-  const { appleIS } = useSelector(selectApple);
-  //   console.log(pathname.slice(-4));
-  //   console.log(appleIS);
-  const IS = getISofYear(appleIS, pathname.slice(-4));
-  console.log(IS);
+  const IS = getISofYear(company, pathname.slice(-4));
   const entries = Object.entries(IS);
 
   return (
@@ -27,3 +22,7 @@ const IncomeStatement = () => {
 };
 
 export default IncomeStatement;
+
+IncomeStatement.propTypes = {
+  company: PropTypes.arrayOf(Object).isRequired,
+};
