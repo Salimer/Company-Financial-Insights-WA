@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Button from './Button';
 
 const Companies = () => {
-  const brands = ['apple', 'facebook', 'smasung', 'xiaomi', 'twitter', 'sony'];
+  const brands = ['apple', 'google', 'smasung', 'xiaomi', 'twitter', 'sony'];
   const nthChildren = [1, 4, 5, 8];
 
   return (
