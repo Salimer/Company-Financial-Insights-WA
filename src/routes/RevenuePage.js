@@ -1,18 +1,24 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { useLocation } from 'react-router-dom';
 import fetchIS from '../redux/thunk';
 import { selectApple } from '../redux/store';
 import RevenueGraph from '../components/revenueGraph';
-import GET_APPLE from '../redux/api';
+import getCompanyURL from '../functions/getCompanyURL';
 
-const Home = () => {
+const Revenue = () => {
+  const location = useLocation();
+  const { pathname } = location;
+  const companyName = pathname.substring(1);
+  console.log(companyName);
+  const companyUrl = getCompanyURL(companyName);
   const {
     appleIS, isLoading, error, errMsg,
   } = useSelector(selectApple);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchIS({ url: GET_APPLE }));
+    dispatch(fetchIS({ url: companyUrl }));
   }, [dispatch, appleIS.length]);
 
   if (isLoading) {
@@ -39,4 +45,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Revenue;
