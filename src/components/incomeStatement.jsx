@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 import getISofYear from '../functions/getISofYear';
+import ISitem from './ISitem';
 
 const IncomeStatement = ({ company }) => {
   const location = useLocation();
@@ -9,15 +10,11 @@ const IncomeStatement = ({ company }) => {
   const entries = Object.entries(IS);
 
   return (
-    <div>
+    <ul>
       {entries.map(([key, value]) => (
-        <p key={key}>
-          {key}
-          :
-          {value}
-        </p>
+        <ISitem key={key} parameter={[key, value]} />
       ))}
-    </div>
+    </ul>
   );
 };
 
