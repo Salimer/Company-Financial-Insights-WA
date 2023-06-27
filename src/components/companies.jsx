@@ -1,9 +1,7 @@
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Button from './Button';
 
-const Companies = ({ companies }) => {
-  console.log(companies);
+const Companies = () => {
   const brands = ['apple', 'facebook', 'smasung', 'xiaomi', 'twitter', 'sony'];
   const nthChildren = [1, 4, 5, 8];
 
@@ -17,10 +15,6 @@ const Companies = ({ companies }) => {
 };
 
 export default Companies;
-
-Companies.propTypes = {
-  companies: PropTypes.arrayOf(Object).isRequired,
-};
 
 const Section = styled.section`
   ${({ nthChildren }) => {
