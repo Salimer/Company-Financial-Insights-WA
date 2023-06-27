@@ -1,5 +1,5 @@
 import Companies from '../components/companies';
 
-const Revenue = () => <Companies />;
+const Home = () => <Companies />;
 
-export default Revenue;
+export default Home;
