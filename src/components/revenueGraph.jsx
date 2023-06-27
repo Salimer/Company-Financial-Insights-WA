@@ -4,7 +4,6 @@ import Button from './Button';
 import getCompanyName from '../functions/getCompanyName';
 
 const RevenueGraph = ({ company }) => {
-  console.log(company);
   const companyName = getCompanyName(company[0].symbol);
   // const years = [2020, 2021, 2022, 2023];
   const nthChildren = [1, 4, 5, 8];
