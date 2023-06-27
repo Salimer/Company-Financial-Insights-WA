@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import fetchIS from '../redux/thunk';
 import { selectApple } from '../redux/store';
-import Companies from '../components/companies';
+import RevenueGraph from '../components/revenueGraph';
 import GET_APPLE from '../redux/api';
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(fetchIS({ url: GET_APPLE }));
-  }, [dispatch]);
+  }, [dispatch, appleIS.length]);
 
   if (isLoading) {
     return (
@@ -35,9 +35,7 @@ const Home = () => {
   }
 
   return (
-    <div>
-      <Companies companies={appleIS} />
-    </div>
+    <RevenueGraph company={appleIS} />
   );
 };
 

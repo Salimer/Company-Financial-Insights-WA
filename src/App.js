@@ -1,15 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Layout from './components/layout';
-import Home from './routes/Home';
-import Details from './routes/Details';
+import RevenuePage from './routes/RevenuePage';
+import HomePage from './routes/HomePage';
+import IncomeStatementPage from './routes/IncomeStatementPage';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="/details" element={<Details />} />
+        <Route index element={<HomePage />} />
+        <Route path="/:companyName" element={<RevenuePage />} />
+        <Route path="/:companyName/:year" element={<IncomeStatementPage />} />
       </Route>
     </Routes>
   );
