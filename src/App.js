@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Layout from './components/layout';
-import Home from './routes/Home';
 import Revenue from './routes/Revenue';
+import Home from './routes/Home';
 import IncomeStatement from './routes/incomeStatement';
 
 function App() {
