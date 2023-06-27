@@ -1,15 +1,39 @@
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import Button from './Button';
 
 const Companies = () => {
-  const brands = ['apple', 'google', 'smasung', 'xiaomi', 'twitter', 'sony'];
+  const brands = ['apple', 'google', 'samsung', 'xiaomi', 'twitter', 'sony'];
   const nthChildren = [1, 4, 5, 8];
 
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const reorderedBrands = [...brands].sort((a, b) => {
+    const aMatch = a.toLowerCase().includes(searchQuery.toLowerCase());
+    const bMatch = b.toLowerCase().includes(searchQuery.toLowerCase());
+
+    if (aMatch && !bMatch) return -1;
+    if (!aMatch && bMatch) return 1;
+    return 0;
+  });
+
   return (
-    <Section nthChildren={nthChildren} className="grid grid-cols-2 w-full">
-      {brands.map((brand) => (
-        <Button key={brand} url={brand}>{brand}</Button>
-      ))}
+    <Section>
+      <div className="bg-headlineBg flex flex-col md:flex-row md:items-center md:justify-between">
+        <h1 className="text-white text-lg p-5 md:p-10">Check big companies&apos; income-statements for the past 5 years...</h1>
+        <SearchBar
+          className="p-5 m-5 rounded-md md:h-fit"
+          type="text"
+          placeholder="Find company..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+      </div>
+      <Ul nthChildren={nthChildren} className="grid grid-cols-2 w-full h-screen">
+        {reorderedBrands.map((brand) => (
+          <Button key={brand} url={brand} iconName="bar-chart-outline">{brand}</Button>
+        ))}
+      </Ul>
     </Section>
   );
 };
@@ -17,6 +41,10 @@ const Companies = () => {
 export default Companies;
 
 const Section = styled.section`
+
+`;
+
+const Ul = styled.ul`
   ${({ nthChildren }) => {
     let css = '';
     nthChildren.forEach((num) => {
@@ -28,4 +56,7 @@ const Section = styled.section`
     });
     return css;
   }}
+`;
+
+const SearchBar = styled.input`
 `;
