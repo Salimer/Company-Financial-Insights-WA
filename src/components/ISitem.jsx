@@ -1,11 +1,11 @@
 import PropTypes, { string } from 'prop-types';
 
 const ISitem = ({ parameter }) => (
-  <li className="flex justify-between flex-wrap">
-    <span>
+  <li className="flex justify-between">
+    <span className="">
       {parameter[0]}
     </span>
-    <span className="flex-wrap">
+    <span className="">
       {parameter[1]}
     </span>
   </li>
