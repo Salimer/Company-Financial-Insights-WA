@@ -10,7 +10,6 @@ const Revenue = () => {
   const location = useLocation();
   const { pathname } = location;
   const companyName = pathname.substring(1);
-  console.log(companyName);
   const companyUrl = getCompanyURL(companyName);
   const {
     appleIS, isLoading, error, errMsg,
