@@ -20,7 +20,7 @@ exports[`Layout renders correctly 1`] = `
       <li
         class="px-4 text-center"
       >
-        Income Statement viewer
+        Company Financial Insights
       </li>
       <li
         class="flex gap-1 md:gap-6"
@@ -61,7 +61,7 @@ exports[`Navbar renders correctly 1`] = `
       <li
         class="px-4 text-center"
       >
-        Income Statement viewer
+        Company Financial Insights
       </li>
       <li
         class="flex gap-1 md:gap-6"
