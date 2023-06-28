@@ -17,6 +17,8 @@ module.exports = {
       bermuda: '#78dcca',
       buttonFirstColor: '#4268af',
       buttonSecondColor: '#3f62a5',
+      navbarBg: '#4269b2',
+      headlineBg: '#5688e4',
     },
     extend: {},
   },
