@@ -1,4 +1,4 @@
-import PropTypes, { string } from 'prop-types';
+import PropTypes from 'prop-types';
 
 const ISitem = ({ parameter, index }) => {
   const even = index % 2 === 0;
@@ -19,6 +19,11 @@ const ISitem = ({ parameter, index }) => {
 export default ISitem;
 
 ISitem.propTypes = {
-  parameter: PropTypes.arrayOf(string).isRequired,
+  parameter: PropTypes.arrayOf(
+    PropTypes.oneOfType([
+      PropTypes.string, // First element should be a string
+      PropTypes.number, // Second element should be a number
+    ]),
+  ).isRequired,
   index: PropTypes.number.isRequired,
 };
