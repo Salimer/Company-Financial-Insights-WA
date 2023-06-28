@@ -46,5 +46,13 @@ export default (IS) => {
     netIncomeRatio,
   };
 
-  return filteredObj;
+  const modifiedObj = {};
+
+  Object.keys(filteredObj).forEach((key) => {
+    const modifiedKey = key.replace(/([A-Z])/g, ' $1'); // Add a space before each uppercase letter
+    const capitalizedKey = modifiedKey.charAt(0).toUpperCase() + modifiedKey.slice(1);
+    modifiedObj[capitalizedKey] = filteredObj[key];
+  });
+
+  return modifiedObj;
 };
