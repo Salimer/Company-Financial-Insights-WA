@@ -6,8 +6,6 @@ const Navbar = () => {
   const { pathname } = location;
   const pathNameSplit = pathname.split('/');
   const newPath = pathNameSplit[pathNameSplit.length - 2];
-  console.log(pathname);
-  console.log(newPath);
   return (
     <Section className="shadow-md w-full top-0 left-0 bg-navbarBg border border-white">
       <ul className="flex items-center justify-between py-4 px-10 text-white">
