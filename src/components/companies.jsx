@@ -20,7 +20,7 @@ const Companies = () => {
   return (
     <Section>
       <div className="bg-headlineBg flex flex-col md:flex-row md:items-center md:justify-between">
-        <h1 className="text-white text-lg p-5 md:p-10">Check big companies&apos; income-statements for the past 5 years...</h1>
+        <h1 className="text-white text-lg p-5 md:p-10">Check tech companies&apos; financial performance for the past 5 years...</h1>
         <SearchBar
           className="p-5 m-5 rounded-md md:h-fit"
           type="text"
