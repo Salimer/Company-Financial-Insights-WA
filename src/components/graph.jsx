@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Bar } from 'react-chartjs-2';
+// eslint-disable-next-line
 import { Chart as ChartJS } from 'chart.js/auto';
+// I had to use this comment as this import existance is crucial for the chart.js to work,
+// without being used
 import styled from 'styled-components';
 import getRevenueArr from '../functions/getRevenueArr';
 import getYearsArr from '../functions/getYearsArr';
 
 function Graph({ company }) {
-  console.log(ChartJS);
   const yearsArr = getYearsArr(company);
   const revenueArr = getRevenueArr(company);
   const data = {
