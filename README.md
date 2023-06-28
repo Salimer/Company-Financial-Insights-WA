@@ -21,6 +21,9 @@
   <img src="https://github.com/Salimer/Space-Travelers-Hub/assets/52242629/8e92bc7d-58a2-4e8b-9b0a-d51586ba263d" alt="Screenshot 3" width="300" style="display: inline-block;">
 </div>
 
+<img width="1440" alt="Screenshot 2023-06-29 at 00 19 13" src="https://github.com/Salimer/Company-Financial-Insights-WA/assets/52242629/61917b0e-f54b-4a36-9326-abd69c47c42c">
+<img width="1440" alt="Screenshot 2023-06-29 at 00 19 05" src="https://github.com/Salimer/Company-Financial-Insights-WA/assets/52242629/86202c32-b857-4b2d-a863-58eafaea7f82">
+<img width="1440" alt="Screenshot 2023-06-29 at 00 18 48" src="https://github.com/Salimer/Company-Financial-Insights-WA/assets/52242629/8762b411-4b26-44fd-b875-dce4627f227d">
 
 
 
