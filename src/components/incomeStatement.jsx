@@ -12,9 +12,9 @@ const IncomeStatement = ({ company }) => {
   const entries = Object.entries(filteredIS);
 
   return (
-    <ul>
-      {entries.map(([key, value]) => (
-        <ISitem key={key} parameter={[key, value]} />
+    <ul className="flex flex-col h-screen justify-between">
+      {entries.map(([key, value], index) => (
+        <ISitem key={key} parameter={[key, value]} index={index} />
       ))}
     </ul>
   );
