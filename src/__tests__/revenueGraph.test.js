@@ -13,9 +13,10 @@ describe('RevenueGraph', () => {
       { symbol: 'ABC', date: '2023-01-01' },
     ];
     const { container } = render(
-    <MemoryRouter>
+      <MemoryRouter>
         <RevenueGraph company={company} />
-    </MemoryRouter>);
+      </MemoryRouter>,
+    );
     expect(container).toMatchSnapshot();
   });
 });
