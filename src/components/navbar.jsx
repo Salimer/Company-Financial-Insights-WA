@@ -9,7 +9,7 @@ const Navbar = () => {
   console.log(pathname);
   console.log(newPath);
   return (
-    <Section className="shadow-md w-full top-0 left-0 bg-navbarBg">
+    <Section className="shadow-md w-full top-0 left-0 bg-navbarBg border border-white">
       <ul className="flex items-center justify-between py-4 px-10 text-white">
         <NavLink to={`/${newPath}`}>
           <ion-icon name="arrow-back-outline" />
