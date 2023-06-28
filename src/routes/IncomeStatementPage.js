@@ -20,7 +20,7 @@ const IncomeStatementPage = () => {
     if (appleIS.length < 1) {
       dispatch(fetchIS({ url: companyUrl }));
     }
-  }, [dispatch, appleIS.length]);
+  }, [dispatch, appleIS.length, companyUrl]);
 
   if (isLoading) {
     return (
