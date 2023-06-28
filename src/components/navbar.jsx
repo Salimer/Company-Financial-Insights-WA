@@ -13,7 +13,7 @@ const Navbar = () => {
           <ion-icon name="arrow-back-outline" />
         </NavLink>
         <li className="px-4 text-center">
-          Income Statement viewer
+          Company Financial Insights
         </li>
         <li className="flex gap-1 md:gap-6">
           <span>
