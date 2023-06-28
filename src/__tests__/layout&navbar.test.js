@@ -9,7 +9,7 @@ describe('Layout', () => {
     const { container } = render(
       <BrowserRouter>
         <Layout />
-      </BrowserRouter>
+      </BrowserRouter>,
     );
     expect(container).toMatchSnapshot();
   });
@@ -20,7 +20,7 @@ describe('Navbar', () => {
     const { container } = render(
       <BrowserRouter>
         <Navbar />
-      </BrowserRouter>
+      </BrowserRouter>,
     );
     expect(container).toMatchSnapshot();
   });
