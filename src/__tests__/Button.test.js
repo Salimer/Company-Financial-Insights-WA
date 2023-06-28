@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Button from './../components/Button';
+import Button from '../components/Button';
 
 describe('Button component', () => {
   it('renders the button correctly', () => {
@@ -11,9 +11,9 @@ describe('Button component', () => {
       iconName: 'test-icon',
     };
     const { container } = render(
-    <MemoryRouter>
+      <MemoryRouter>
         <Button {...props} />
-    </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(container.firstChild).toMatchSnapshot();
   });
