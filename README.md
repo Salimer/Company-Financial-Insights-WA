@@ -40,8 +40,7 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
   - [👥 Author ](#-author-)
-  - [👥 Collaborator ](#-collaborator-)
-  - [🔭 Future Features ](#-future-features-)
+  - [� Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -95,7 +94,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://bookstore-m1ib.onrender.com)
+- [Live Demo Link](https://company-financial-insights-wa-static.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,14 +122,14 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Salimer/BookStore.git
+  git clone https://github.com/Salimer/Company-Financial-Insights-WA.git
 ```
 
 using Ubuntu:
 
 ```sh
   cd my-desired-folder
-  git clone https://github.com/Salimer/BookStore.git
+  git clone https://github.com/Salimer/Company-Financial-Insights-WA.git
 ```
 
 For more information on how to clone or fork a repository:
@@ -169,14 +168,6 @@ To run tests, run the following command:
 
 
 - GitHub: [@Salimer](https://github.com/Salimer)
-
-## 👥 Collaborator <a name="collaborator"></a>
-
-👤 **Martín Ezequiel González**
-
-- GitHub: [@Mar12358](https://github.com/Mar12358)
-- Twitter: [@MarezegonZ](https://twitter.com/MarezegonZ)
-- LinkedIn: [Martin Ezequiel Gonzalez](https://www.linkedin.com/in/martin-ezequiel-gonzalez-30a413260/)
 
 
 
