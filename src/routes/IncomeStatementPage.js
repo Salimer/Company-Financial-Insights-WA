@@ -33,7 +33,13 @@ const IncomeStatementPage = () => {
       <div>
         <p>
           Oops! an error occurred. Please try again.
+          <br />
+          <br />
           {errMsg}
+          <br />
+          <br />
+          In short, the number of requests to the API is being exceeded.
+          come again tomorrow :)
         </p>
       </div>
     );
