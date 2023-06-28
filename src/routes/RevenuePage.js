@@ -5,6 +5,7 @@ import fetchIS from '../redux/thunk';
 import { selectApple } from '../redux/store';
 import RevenueGraph from '../components/revenueGraph';
 import getCompanyURL from '../functions/getCompanyURL';
+import Graph from '../components/graph';
 
 const Revenue = () => {
   const location = useLocation();
@@ -17,7 +18,9 @@ const Revenue = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchIS({ url: companyUrl }));
+    if (appleIS.length < 1) {
+      dispatch(fetchIS({ url: companyUrl }));
+    }
   }, [dispatch, appleIS.length]);
 
   if (isLoading) {
@@ -40,7 +43,10 @@ const Revenue = () => {
   }
 
   return (
-    <RevenueGraph company={appleIS} />
+    <>
+      <Graph company={appleIS} />
+      <RevenueGraph company={appleIS} />
+    </>
   );
 };
 
