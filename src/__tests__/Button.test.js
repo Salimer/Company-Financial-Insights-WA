@@ -12,7 +12,9 @@ describe('Button component', () => {
     };
     const { container } = render(
       <MemoryRouter>
-        <Button {...props} />
+        <Button url={props.url} iconName={props.iconName}>
+          Test Button
+        </Button>
       </MemoryRouter>,
     );
     expect(container.firstChild).toMatchSnapshot();
