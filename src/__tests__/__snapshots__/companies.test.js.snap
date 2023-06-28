@@ -29,7 +29,7 @@ exports[`renders the Companies component 1`] = `
     <h1
       class="text-white text-lg p-5 md:p-10"
     >
-      Check big companies' income-statements for the past 5 years...
+      Check tech companies' financial performance for the past 5 years...
     </h1>
     <input
       class="sc-ewnqHT fIlsuK p-5 m-5 rounded-md md:h-fit"
