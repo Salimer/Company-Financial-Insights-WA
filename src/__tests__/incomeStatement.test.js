@@ -16,9 +16,9 @@ test('renders the income statement correctly', () => {
   ];
 
   const { container } = render(
-  <MemoryRouter>
-    <IncomeStatement company={company} />
-  </MemoryRouter>
+    <MemoryRouter>
+      <IncomeStatement company={company} />
+    </MemoryRouter>,
   );
   expect(container).toMatchSnapshot();
 });
