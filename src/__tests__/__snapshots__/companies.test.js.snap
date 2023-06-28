@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Button component 1`] = `
+<a
+  class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+  href="//test-url"
+>
+  <span>
+    <ion-icon
+      name="test-icon"
+      size="large"
+    />
+  </span>
+  <span
+    class=" text-lg tracking-wider font-bold"
+  >
+    Test Button
+  </span>
+</a>
+`;
+
+exports[`renders the Companies component 1`] = `
+<section
+  class="sc-bgqQcB ePBDDx"
+>
+  <div
+    class="bg-headlineBg flex flex-col md:flex-row md:items-center md:justify-between"
+  >
+    <h1
+      class="text-white text-lg p-5 md:p-10"
+    >
+      Check big companies' income-statements for the past 5 years...
+    </h1>
+    <input
+      class="sc-ewnqHT fIlsuK p-5 m-5 rounded-md md:h-fit"
+      placeholder="Find company..."
+      type="text"
+      value=""
+    />
+  </div>
+  <ul
+    class="sc-gTRrQi kNTPMh grid grid-cols-2 w-full h-screen"
+  >
+    <a
+      class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+      href="/apple"
+    >
+      <span>
+        <ion-icon
+          name="bar-chart-outline"
+          size="large"
+        />
+      </span>
+      <span
+        class=" text-lg tracking-wider font-bold"
+      >
+        apple
+      </span>
+    </a>
+    <a
+      class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+      href="/google"
+    >
+      <span>
+        <ion-icon
+          name="bar-chart-outline"
+          size="large"
+        />
+      </span>
+      <span
+        class=" text-lg tracking-wider font-bold"
+      >
+        google
+      </span>
+    </a>
+    <a
+      class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+      href="/meta"
+    >
+      <span>
+        <ion-icon
+          name="bar-chart-outline"
+          size="large"
+        />
+      </span>
+      <span
+        class=" text-lg tracking-wider font-bold"
+      >
+        meta
+      </span>
+    </a>
+    <a
+      class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+      href="/microsoft"
+    >
+      <span>
+        <ion-icon
+          name="bar-chart-outline"
+          size="large"
+        />
+      </span>
+      <span
+        class=" text-lg tracking-wider font-bold"
+      >
+        microsoft
+      </span>
+    </a>
+    <a
+      class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+      href="/nvidia"
+    >
+      <span>
+        <ion-icon
+          name="bar-chart-outline"
+          size="large"
+        />
+      </span>
+      <span
+        class=" text-lg tracking-wider font-bold"
+      >
+        nvidia
+      </span>
+    </a>
+    <a
+      class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+      href="/amd"
+    >
+      <span>
+        <ion-icon
+          name="bar-chart-outline"
+          size="large"
+        />
+      </span>
+      <span
+        class=" text-lg tracking-wider font-bold"
+      >
+        amd
+      </span>
+    </a>
+    <a
+      class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+      href="/xiaomi"
+    >
+      <span>
+        <ion-icon
+          name="bar-chart-outline"
+          size="large"
+        />
+      </span>
+      <span
+        class=" text-lg tracking-wider font-bold"
+      >
+        xiaomi
+      </span>
+    </a>
+    <a
+      class="bg-buttonFirstColor p-5 text-white flex flex-col justify-center items-center border-white border"
+      href="/sony"
+    >
+      <span>
+        <ion-icon
+          name="bar-chart-outline"
+          size="large"
+        />
+      </span>
+      <span
+        class=" text-lg tracking-wider font-bold"
+      >
+        sony
+      </span>
+    </a>
+  </ul>
+</section>
+`;
