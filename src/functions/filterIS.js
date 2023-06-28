@@ -1,4 +1,7 @@
 export default (IS) => {
+  if (!IS) {
+    return {}; // Return an empty object when IS is null
+  }
   const {
     reportedCurrency,
     revenue,
