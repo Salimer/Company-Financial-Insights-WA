@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 
 const Companies = () => {
-  const brands = ['apple', 'google', 'samsung', 'xiaomi', 'twitter', 'sony'];
+  const brands = ['apple', 'google', 'meta', 'microsoft', 'nvidia', 'amd', 'xiaomi', 'sony'];
   const nthChildren = [1, 4, 5, 8];
 
   const [searchQuery, setSearchQuery] = useState('');
