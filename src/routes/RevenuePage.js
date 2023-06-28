@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 import fetchIS from '../redux/thunk';
@@ -6,6 +6,7 @@ import { selectApple } from '../redux/store';
 import RevenueGraph from '../components/revenueGraph';
 import getCompanyURL from '../functions/getCompanyURL';
 import Graph from '../components/graph';
+import LoadingScreen from '../components/loadingScreen';
 
 const Revenue = () => {
   const location = useLocation();
@@ -18,24 +19,18 @@ const Revenue = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (appleIS.length < 1) {
-      dispatch(fetchIS({ url: companyUrl }));
-    }
-  }, [dispatch, appleIS.length]);
+    dispatch(fetchIS({ url: companyUrl }));
+  }, [dispatch]);
 
   if (isLoading) {
-    return (
-      <div>
-        <p>Loading...</p>
-      </div>
-    );
+    return <LoadingScreen />;
   }
 
   if (error) {
     return (
       <div>
         <p>
-          Oops! an error occurred. Please try again.
+          Oops! An error occurred. Please try again.
           {errMsg}
         </p>
       </div>
