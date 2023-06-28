@@ -8,7 +8,7 @@ test('renders the Companies component', () => {
   const { container } = render(
     <MemoryRouter>
       <Companies />
-    </MemoryRouter>
+    </MemoryRouter>,
   );
   expect(container.firstChild).toMatchSnapshot();
 });
@@ -21,8 +21,8 @@ test('renders the Button component', () => {
   };
   const { container } = render(
     <MemoryRouter>
-        <Button {...props} />
-    </MemoryRouter>
+      <Button {...props} />
+    </MemoryRouter>,
   );
   expect(container.firstChild).toMatchSnapshot();
 });
