@@ -5,6 +5,7 @@ import fetchIS from '../redux/thunk';
 import { selectApple } from '../redux/store';
 import IncomeStatement from '../components/incomeStatement';
 import getCompanyURL from '../functions/getCompanyURL';
+import LoadingScreen from '../components/loadingScreen';
 
 const IncomeStatementPage = () => {
   const location = useLocation();
@@ -23,9 +24,7 @@ const IncomeStatementPage = () => {
 
   if (isLoading) {
     return (
-      <div>
-        <p>Loading...</p>
-      </div>
+      <LoadingScreen />
     );
   }
 
