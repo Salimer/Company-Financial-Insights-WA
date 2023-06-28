@@ -10,14 +10,11 @@ const IncomeStatementPage = () => {
   const location = useLocation();
   const { pathname } = location;
   const companyName = pathname.split('/')[1];
-  console.log(companyName);
   const companyUrl = getCompanyURL(companyName);
   const {
     appleIS, isLoading, error, errMsg,
   } = useSelector(selectApple);
   const dispatch = useDispatch();
-
-  console.log(appleIS);
   useEffect(() => {
     dispatch(fetchIS({ url: companyUrl }));
   }, [dispatch, appleIS.length]);
