@@ -40,7 +40,7 @@
     - [Usage](#usage)
     - [Run tests](#run-tests)
   - [👥 Author ](#-author-)
-  - [� Future Features ](#-future-features-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -61,9 +61,10 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://react.dev">React.js</a></li>
-    <li><a href="https://www.w3.org/TR/2011/WD-html5-20110405/">HTML5</a></li>
-    <li><a href="https://www.w3.org/Style/CSS/specs.en.html">CSS</a></li>
-    <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">JavaScript</a></li>
+    <li><a href="https://redux-toolkit.js.org">Redux Toolkit</a></li>
+    <li><a href="https://tailwindcss.com">tailwindcss</a></li>
+    <li><a href="https://styled-components.com">styled-components</a></li>
+    <li><a href="https://jestjs.io">Jest</a></li>
   </ul>
 </details>
 
