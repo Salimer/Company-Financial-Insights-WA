@@ -4,5 +4,11 @@ export default (ISs) => {
     revenueArr.push(IS.revenue);
   });
 
-  return revenueArr;
+  const firstThreeDigits = revenueArr.map((number) => {
+    const numberString = number.toString();
+    const digitsToKeep = numberString.slice(0, -6); // Remove the last six digits
+    return digitsToKeep;
+  });
+
+  return firstThreeDigits;
 };
