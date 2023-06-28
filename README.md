@@ -20,6 +20,8 @@
   <img src="https://github.com/Salimer/Company-Financial-Insights-WA/assets/52242629/86202c32-b857-4b2d-a863-58eafaea7f82" alt="Screenshot 2" width="300" style="display: inline-block; margin-right: 10px;">
   <img src="https://github.com/Salimer/Company-Financial-Insights-WA/assets/52242629/61917b0e-f54b-4a36-9326-abd69c47c42c" alt="Screenshot 3" width="300" style="display: inline-block;">
 </div>
+<img width="1440" alt="Screenshot 2023-06-29 at 00 23 29" src="https://github.com/Salimer/Company-Financial-Insights-WA/assets/52242629/521de42d-4bf1-4dac-a020-1217b11a3514">
+
 
 
 
