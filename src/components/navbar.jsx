@@ -17,7 +17,7 @@ const Navbar = () => {
         <li className="px-4 text-center">
           Income Statement viewer
         </li>
-        <li>
+        <li className="flex gap-1 md:gap-6">
           <span>
             <ion-icon name="mic-outline" />
           </span>
