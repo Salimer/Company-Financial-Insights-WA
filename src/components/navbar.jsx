@@ -14,8 +14,8 @@ const Navbar = () => {
         <NavLink to={`/${newPath}`}>
           <ion-icon name="arrow-back-outline" />
         </NavLink>
-        <li>
-          home
+        <li className="px-4 text-center">
+          Income Statement viewer
         </li>
         <li>
           <span>
