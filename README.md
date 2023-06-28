@@ -12,7 +12,13 @@
 <div align="center">
   
   <br/>
-<h1 align="center">BookStore</h1>
+<h1 align="center">Company Financial Insights WA</h1>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Salimer/Space-Travelers-Hub/assets/52242629/5016c340-a8f2-4794-b8b4-ec7d79279564" alt="Screenshot 1" width="300" style="display: inline-block; margin-right: 10px;">
+  <img src="https://github.com/Salimer/Space-Travelers-Hub/assets/52242629/0bc92fad-8227-4694-8f25-b65d103cb43e" alt="Screenshot 2" width="300" style="display: inline-block; margin-right: 10px;">
+  <img src="https://github.com/Salimer/Space-Travelers-Hub/assets/52242629/8e92bc7d-58a2-4e8b-9b0a-d51586ba263d" alt="Screenshot 3" width="300" style="display: inline-block;">
 </div>
 
 
@@ -24,7 +30,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[BookStore\] ](#-bookstore-)
+- [📖 \[Company Financial Insights WA\] ](#-company-financial-insights-wa-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -45,10 +51,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [BookStore] <a name="about-project"></a>
+# 📖 [Company Financial Insights WA] <a name="about-project"></a>
 
 
-**BookStore** is a website that stores books names, authors, genre, and the user's progress on reading. Implementing this project to learn how to use React and Redux in the context of a real application.
+**Company Financial Insights WA** is a web application that empowers users to visualize and analyze the financial performance of a group of technology companies. The application offers an intuitive interface to explore the revenue trends of individual companies over the past five years, presented in a visually appealing bar chart. Users can delve deeper by selecting a specific year to gain access to comprehensive financial metrics for the chosen company during that period. The project is built using modern web technologies including React, Redux, styled-components, and tailwind, ensuring a robust and scalable solution. Extensive testing using Jest guarantees the reliability and quality of the application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
