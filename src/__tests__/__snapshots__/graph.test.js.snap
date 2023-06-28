@@ -10,7 +10,7 @@ exports[`renders the graph correctly 1`] = `
     Revenue for the past 5 years
   </h1>
   <div
-    class="p-3 w-full"
+    class="p-3 w-full md:px-44"
   >
     <canvas
       height="150"
