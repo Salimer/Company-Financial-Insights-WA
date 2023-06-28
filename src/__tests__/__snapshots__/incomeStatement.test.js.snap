@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the income statement correctly 1`] = `
+<div>
+  <ul
+    class="flex flex-col h-screen justify-between"
+  />
+</div>
+`;

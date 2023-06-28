@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the graph correctly 1`] = `
+<section
+  class="sc-bgqQcB ePBDDx bg-headlineBg flex flex-col items-center"
+>
+  <h1
+    class="text-white text-lg p-5 md:p-10"
+  >
+    Revenue for the past 5 years
+  </h1>
+  <div
+    class="p-3 w-full md:px-44"
+  >
+    <canvas
+      height="150"
+      role="img"
+      width="300"
+    />
+  </div>
+</section>
+`;

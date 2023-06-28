@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the income statement item correctly 1`] = `
+<li
+  class="flex justify-between text-white h-full p-5 bg-buttonSecondColor"
+>
+  <span
+    class=""
+  >
+    Revenue
+  </span>
+  <span
+    class=""
+  >
+    1000000
+  </span>
+</li>
+`;

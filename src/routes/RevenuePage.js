@@ -20,7 +20,7 @@ const Revenue = () => {
 
   useEffect(() => {
     dispatch(fetchIS({ url: companyUrl }));
-  }, [dispatch]);
+  }, [dispatch, companyUrl]);
 
   if (isLoading) {
     return <LoadingScreen />;
