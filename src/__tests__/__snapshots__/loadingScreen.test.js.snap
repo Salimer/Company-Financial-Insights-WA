@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingScreen renders correctly 1`] = `
+<div>
+  <div
+    class="sc-bgqQcB cFcgbR"
+  >
+    <div
+      class="sc-gTRrQi byNTRp"
+    />
+  </div>
+</div>
+`;
