@@ -32,6 +32,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🤯 Walk through video ](#-walk-through-video-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -80,15 +81,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- WALKTHROUGH
+WALKTHROUGH
 
 ## 🤯 Walk through video <a name="walk-through"></a>
 
 
-- [here](https://youtu.be/dYmqQRuvd4c)
+- [here](https://www.loom.com/share/da70773258744aea8800fcf62f705b7e?sid=6af7c959-61cf-4434-86ae-0d9474d451fe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
- -->
+
 
 <!-- LIVE DEMO -->
 
