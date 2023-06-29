@@ -30,8 +30,8 @@ const IncomeStatementPage = () => {
 
   if (error) {
     return (
-      <div>
-        <p>
+      <div className="w-full flx justify-center">
+        <p className="p-6">
           Oops! an error occurred. Please try again.
           <br />
           <br />
@@ -40,6 +40,11 @@ const IncomeStatementPage = () => {
           <br />
           In short, the number of requests to the API is being exceeded.
           come again tomorrow :)
+          <br />
+          <br />
+          or, get a new API key from
+          {' '}
+          <a href="https://site.financialmodelingprep.com">Financial Modeling Prep</a>
         </p>
       </div>
     );
