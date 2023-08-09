@@ -81,7 +81,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-WALKTHROUGH
+<!-- WALKTHROUGH -->
 
 ## 🤯 Walk through video <a name="walk-through"></a>
 
